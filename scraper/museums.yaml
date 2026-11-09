@@ -1,0 +1,109 @@
+# 博物馆配置。pages：读取开放时间/票价/展览的页面；exhibitions：展览列表的提取规则。
+# 开放时间和票价由 scraper/scrape.py 里的通用规则解析；展览按下面的规则提取。
+# exhibitions.mode: links（匹配链接 link_re）或 selector（CSS 选择器 item，levels 为向上取几层作为上下文找日期）
+museums:
+- id: louisiana
+  name: Louisiana Museum of Modern Art
+  city: Humlebæk
+  region: Hovedstaden
+  address: Gl Strandvej 13, 3050 Humlebæk
+  url: https://louisiana.dk/en/
+  hours_url: https://louisiana.dk/en/plan-your-visit/opening-hours/
+  tickets_url: https://billet.louisiana.dk/en/tickets
+  pages:
+  - https://louisiana.dk/en/plan-your-visit/opening-hours/
+  - https://billet.louisiana.dk/en/tickets
+  - https://louisiana.dk/en/exhibitions/current/
+  exhibitions:
+    url: https://louisiana.dk/en/exhibitions/current/
+    mode: selector
+    item: h2.title
+    levels: 3
+- id: smk
+  name: SMK – National Gallery of Denmark
+  city: København
+  region: Hovedstaden
+  address: Sølvgade 48-50, 1307 København K
+  url: https://www.smk.dk/en/
+  hours_url: https://www.smk.dk/en/section/visit-smk/
+  tickets_url: https://shop.smk.dk/en/dagsbillet
+  pages:
+  - https://www.smk.dk/en/section/visit-smk/
+  - https://shop.smk.dk/en/dagsbillet
+  - https://www.smk.dk/en/exhibitions/
+  exhibitions:
+    url: https://www.smk.dk/en/exhibitions/
+    mode: links
+    link_re: /en/exhibition/[^/?#]+/?$
+- id: glyptoteket
+  name: Ny Carlsberg Glyptotek
+  city: København
+  region: Hovedstaden
+  address: Dantes Plads 7, 1556 København V
+  url: https://www.glyptoteket.com/
+  hours_url: https://glyptoteket.com/visit/opening-hours
+  tickets_url: https://glyptoteket.com/visit/tickets
+  pages:
+  - https://glyptoteket.com/visit/opening-hours
+  - https://glyptoteket.com/visit/tickets
+  - https://www.glyptoteket.com/exhibitions/
+  exhibitions:
+    url: https://www.glyptoteket.com/exhibitions/
+    mode: selector
+    item: h3.font-Grot10Bold
+    levels: 3
+    limit: 4
+    exclude:
+    - Visit
+    - Follow us
+    - Glyptoteket App
+    - What's On
+    - Explore
+- id: designmuseum
+  name: Designmuseum Danmark
+  city: København
+  region: Hovedstaden
+  address: Bredgade 68, 1260 København K
+  url: https://designmuseum.dk/en/
+  hours_url: https://designmuseum.dk/en/besog-os/opening-hours-admission-2/
+  tickets_url: https://designmuseum.dk/en/besog-os/opening-hours-admission-2/
+  pages:
+  - https://designmuseum.dk/en/besog-os/opening-hours-admission-2/
+  - https://designmuseum.dk/en/exhibition/
+  exhibitions:
+    url: https://designmuseum.dk/en/exhibition/
+    mode: links
+    link_re: /en/exhibition/[^/?#]+/?$
+- id: natmus
+  name: Nationalmuseet (National Museum of Denmark)
+  city: København
+  region: Hovedstaden
+  address: Ny Vestergade 10, 1471 København K
+  url: https://en.natmus.dk/
+  hours_url: https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/
+  tickets_url: https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/
+  pages:
+  - https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/
+  - https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/exhibitions/
+  exhibitions:
+    url: https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/exhibitions/
+    mode: links
+    link_re: /en/exhibitions/[^/?#]+/?$
+    strip:
+    - See the exhibition
+- id: aros
+  name: ARoS Aarhus Kunstmuseum
+  city: Aarhus
+  region: Midtjylland
+  address: Aros Allé 2, 8000 Aarhus C
+  url: https://www.aros.dk/en/
+  hours_url: https://www.aros.dk/en/practical/
+  tickets_url: https://shop.aros.dk/en/ticket/
+  pages:
+  - https://www.aros.dk/en/practical/
+  - https://shop.aros.dk/en/ticket/
+  - https://www.aros.dk/en/exhibitions/
+  exhibitions:
+    url: https://www.aros.dk/en/exhibitions/
+    mode: links
+    link_re: /en/exhibitions/[^/?#]+/?$

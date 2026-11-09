@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>丹麦博物馆速查</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🏛️ 丹麦博物馆速查</h1>
+  <p class="sub">开放时间 · 票价 · 当前展览，一页看完。<span id="updated"></span></p>
+</header>
+<section class="controls">
+  <div class="row">
+    <label>日期 <input type="date" id="date"></label>
+    <button data-quick="today">今天</button>
+    <button data-quick="weekend">本周末</button>
+    <button data-quick="holiday">下一个公共假日</button>
+    <span id="dateinfo" class="hint"></span>
+  </div>
+  <div class="row">
+    <input type="search" id="q" placeholder="搜索博物馆或展览…">
+    <select id="city"><option value="">全部城市</option></select>
+    <label class="chk"><input type="checkbox" id="openOnly"> 只看当天开放</label>
+  </div>
+</section>
+<main id="list"></main>
+<footer>数据每天自动抓取自各馆官网；开放时间与票价请以官网为准。标"未核实"的信息尚未人工核对。</footer>
+<script src="app.js"></script>
+</body>
+</html>

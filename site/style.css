@@ -1,0 +1,22 @@
+:root{--bg:#faf8f5;--fg:#222;--card:#fff;--mut:#777;--acc:#b5362f;--ok:#2d7a46;--line:#e6e1d9}
+@media(prefers-color-scheme:dark){:root{--bg:#161514;--fg:#eee;--card:#211f1d;--mut:#9a948b;--acc:#e4675f;--ok:#58b57a;--line:#35312d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 -apple-system,"PingFang SC","Helvetica Neue",sans-serif}
+header,.controls,main,footer{max-width:960px;margin:0 auto;padding:0 16px}
+h1{margin:24px 0 4px}.sub,.hint,footer{color:var(--mut);font-size:14px}
+.controls{margin:16px auto}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+input,select,button{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+button{cursor:pointer}button:hover{border-color:var(--acc)}
+#q{flex:1;min-width:180px}.chk{display:flex;gap:6px;align-items:center}.chk input{padding:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+.card h2{margin:0 0 2px;font-size:18px}.meta{color:var(--mut);font-size:14px}
+.badge{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid currentColor;margin-left:6px;vertical-align:middle}
+.open{color:var(--ok)}.closed{color:var(--acc)}.warn{color:var(--mut)}
+.card ul{margin:8px 0;padding-left:20px}.card a{color:var(--acc)}
+.links{font-size:14px;display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+.empty{text-align:center;color:var(--mut);padding:40px}
+footer{padding:24px 16px 40px}
+@media(max-width:560px){h1{font-size:22px}}
+.card h3{font-size:15px;margin:12px 0 4px}.prices{margin:4px 0}
+.changes{background:color-mix(in srgb,var(--acc) 12%,transparent);border-left:3px solid var(--acc);padding:6px 10px;margin:8px 0;border-radius:6px;font-size:14px}
+.offers{background:color-mix(in srgb,var(--ok) 12%,transparent);padding:6px 10px;margin:6px 0;border-radius:6px;font-size:14px}
