@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:31:29+00:00",
+  "generated_at": "2026-11-10T13:22:07+00:00",
   "museums": [
     {
       "id": "louisiana",
@@ -108,7 +108,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -152,6 +152,12 @@
       ],
       "exhibitions": [
         {
+          "title": "Four favourites from SMK’s collection of European art 1300–1800",
+          "url": "https://www.smk.dk/en/exhibition/four-favourites-from-smks-collection-of-european-art-1300-1800/",
+          "start": null,
+          "end": null
+        },
+        {
           "title": "Couples Therapy",
           "url": "https://www.smk.dk/en/exhibition/couples-therapy/",
           "start": null,
@@ -172,12 +178,6 @@
         {
           "title": "Danish and International Art after 1900",
           "url": "https://www.smk.dk/en/exhibition/danish-and-international-art-after-1900/",
-          "start": null,
-          "end": null
-        },
-        {
-          "title": "Four favourites from SMK’s collection of European art 1300–1800",
-          "url": "https://www.smk.dk/en/exhibition/four-favourites-from-smks-collection-of-european-art-1300-1800/",
           "start": null,
           "end": null
         },
@@ -207,7 +207,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -290,7 +290,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -366,7 +366,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -497,7 +497,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -512,13 +512,13 @@
       "tickets_url": "https://shop.aros.dk/en/ticket/",
       "exhibitions_url": "https://www.aros.dk/en/exhibitions/",
       "hours": {
-        "mon": "closed",
         "tue": "10:00-20:00",
         "wed": "10:00-20:00",
         "thu": "10:00-20:00",
         "fri": "10:00-20:00",
         "sat": "09:00-17:00",
-        "sun": "09:00-17:00"
+        "sun": "09:00-17:00",
+        "mon": "closed"
       },
       "prices": [
         {
@@ -578,7 +578,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-09T12:31:29+00:00",
+      "checked_at": "2026-11-10T13:22:07+00:00",
       "changes": [],
       "parse_missing": []
     }
