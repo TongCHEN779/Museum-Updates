@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:38:29+00:00",
+  "generated_at": "2026-11-13T12:56:32+00:00",
   "museums": [
     {
       "id": "louisiana",
@@ -108,7 +108,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -207,7 +207,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -290,7 +290,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -329,6 +329,12 @@
       "offers": [],
       "exhibitions": [
         {
+          "title": "Kim Buck",
+          "url": "https://designmuseum.dk/en/exhibition/kim-buck/",
+          "start": "2026-11-13",
+          "end": "2027-05-09"
+        },
+        {
           "title": "Henrik Vibskov: The exhibition",
           "url": "https://designmuseum.dk/en/exhibition/henrik-vibskov/",
           "start": "2026-09-18",
@@ -366,7 +372,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -497,7 +503,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -512,13 +518,13 @@
       "tickets_url": "https://shop.aros.dk/en/ticket/",
       "exhibitions_url": "https://www.aros.dk/en/exhibitions/",
       "hours": {
-        "thu": "10:00-20:00",
         "fri": "10:00-20:00",
         "sat": "09:00-17:00",
         "sun": "09:00-17:00",
         "mon": "closed",
         "tue": "10:00-20:00",
-        "wed": "10:00-20:00"
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00"
       },
       "prices": [
         {
@@ -614,7 +620,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-12T13:38:29+00:00",
+      "checked_at": "2026-11-13T12:56:32+00:00",
       "changes": [],
       "parse_missing": []
     }
