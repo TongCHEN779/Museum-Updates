@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:56:32+00:00",
+  "generated_at": "2026-11-14T11:59:59+00:00",
   "museums": [
     {
       "id": "louisiana",
@@ -34,11 +34,7 @@
           "amount_dkk": 0
         }
       ],
-      "offers": [
-        {
-          "title": "Children/young adults under 18\tfree entry"
-        }
-      ],
+      "offers": [],
       "exhibitions": [
         {
           "title": "Remedios Varo",
@@ -107,10 +103,14 @@
           "end": null
         }
       ],
-      "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "scrape_status": "partial",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
-      "parse_missing": []
+      "parse_missing": [
+        "开放时间",
+        "票价",
+        "展览"
+      ]
     },
     {
       "id": "smk",
@@ -207,7 +207,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -290,7 +290,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -372,7 +372,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -503,7 +503,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -518,13 +518,13 @@
       "tickets_url": "https://shop.aros.dk/en/ticket/",
       "exhibitions_url": "https://www.aros.dk/en/exhibitions/",
       "hours": {
-        "fri": "10:00-20:00",
         "sat": "09:00-17:00",
         "sun": "09:00-17:00",
         "mon": "closed",
         "tue": "10:00-20:00",
         "wed": "10:00-20:00",
-        "thu": "10:00-20:00"
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00"
       },
       "prices": [
         {
@@ -620,7 +620,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-13T12:56:32+00:00",
+      "checked_at": "2026-11-14T11:59:59+00:00",
       "changes": [],
       "parse_missing": []
     }
