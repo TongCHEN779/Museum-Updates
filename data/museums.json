@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:50:53+00:00",
+  "generated_at": "2026-11-28T13:59:42+00:00",
   "museums": [
     {
       "id": "louisiana",
@@ -108,7 +108,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [
         {
           "date": "2026-11-15",
@@ -216,7 +216,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -299,7 +299,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -380,10 +380,14 @@
           "end": null
         }
       ],
-      "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "scrape_status": "partial",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [],
-      "parse_missing": []
+      "parse_missing": [
+        "开放时间",
+        "票价",
+        "展览"
+      ]
     },
     {
       "id": "natmus",
@@ -512,7 +516,7 @@
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [],
       "parse_missing": []
     },
@@ -527,13 +531,13 @@
       "tickets_url": "https://shop.aros.dk/en/ticket/",
       "exhibitions_url": "https://www.aros.dk/en/exhibitions/",
       "hours": {
-        "fri": "10:00-20:00",
         "sat": "09:00-17:00",
         "sun": "09:00-17:00",
         "mon": "closed",
         "tue": "10:00-20:00",
         "wed": "10:00-20:00",
-        "thu": "10:00-20:00"
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00"
       },
       "prices": [
         {
@@ -562,6 +566,12 @@
           "end": null
         },
         {
+          "title": "ARoS Collection: Brand-new collection exhibitions",
+          "url": "https://www.aros.dk/en/exhibitions/aros-collection-brand-new-collection-exhibitions/",
+          "start": "2026-10-03",
+          "end": "2027-02-21"
+        },
+        {
           "title": "FREEDOM’S FALL: Art in Germany 1910-1945",
           "url": "https://www.aros.dk/en/exhibitions/freedoms-fall-art-in-germany-1910-1945/",
           "start": "2026-10-03",
@@ -586,50 +596,44 @@
           "end": "2027-02-21"
         },
         {
-          "title": "ARoS Collection: Brand-new collection exhibitions",
-          "url": "https://www.aros.dk/en/exhibitions/aros-collection-brand-new-collection-exhibitions/",
-          "start": null,
-          "end": null
-        },
-        {
           "title": "Julien Creuzet",
           "url": "https://www.aros.dk/en/exhibitions/julien-creuzet/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         },
         {
           "title": "Paula Rego",
           "url": "https://www.aros.dk/en/exhibitions/paula-rego/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         },
         {
           "title": "Lap-See Lam",
           "url": "https://www.aros.dk/en/exhibitions/lap-see-lam/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         },
         {
           "title": "Lene Adler Petersen",
           "url": "https://www.aros.dk/en/exhibitions/lene-adler-petersen/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         },
         {
           "title": "Olafur Eliasson – Tynd is",
           "url": "https://www.aros.dk/en/exhibitions/olafur-eliasson-tynd-is/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         },
         {
           "title": "Future Worlds",
           "url": "https://www.aros.dk/en/exhibitions/future-worlds/",
-          "start": null,
-          "end": null
+          "start": "2027-01-23",
+          "end": "2027-08-22"
         }
       ],
       "scrape_status": "ok",
-      "checked_at": "2026-11-27T14:50:53+00:00",
+      "checked_at": "2026-11-28T13:59:42+00:00",
       "changes": [],
       "parse_missing": []
     }
